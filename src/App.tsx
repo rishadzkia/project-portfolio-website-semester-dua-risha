@@ -435,7 +435,7 @@ const Hero = () => {
           >
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-emerald-500/20 to-cyan-500/20 blur-3xl"></div>
             <img
-              src="risha_foto.jpeg"
+              src="/risha_foto.jpeg"
               alt="Risha Adzkia Putri"
               className="relative z-10 w-full h-full object-cover rounded-full border-2 border-white/10 shadow-2xl"
               referrerPolicy="no-referrer"
