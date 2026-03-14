@@ -263,7 +263,7 @@ const PROJECTS = [
     title: "Prayer Times Website",
     description:
       "A web dashboard that shows real-time clock, daily prayer schedules, countdown to the next prayer time, and countdown to Ramadan.",
-    image: "/webprayer.png",
+    image: "/webprayer.PNG",
     tags: ["HTML", "CSS", "JavaScript"],
     link: "https://web-prayer-times.vercel.app/",
   },
@@ -279,7 +279,7 @@ const PROJECTS = [
     title: "Website Mutabaah Tahfidz",
     description:
       "A web-based Mutabaah Tahfidz system developed for internal school use to monitor students' Qur'an memorization progress and help teachers record daily memorization activities.",
-    image: "/stek.png",
+    image: "/stek.PNG",
     tags: ["Laravel", "PHP", "MySQL"],
     link: "https://github.com/rishadzkia/project-mutabaah-tahfidz-internal-risha-250458302062.git",
   },
