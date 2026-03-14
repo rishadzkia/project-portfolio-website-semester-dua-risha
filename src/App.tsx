@@ -48,7 +48,7 @@ const CERTIFICATES = [
     year: "2025",
     description:
       "Completed the final challenge of the program and improved my skills in using VS Code for programming.",
-    image: "sertif.jpg",
+    image: "/sertif.jpg",
     link: "https://drive.google.com/file/d/1s-GQyh294LDdnTA_hq1MHTvNVmu_jJaI/view?usp=sharing",
   },
   {
@@ -57,7 +57,7 @@ const CERTIFICATES = [
     year: "2025",
     description:
       "Completed several projects and quizzes in each session while learning programming fundamentals and basic algorithms.",
-    image: "sertifminics.jpg",
+    image: "/sertifminics.jpg",
     link: "https://drive.google.com/file/d/1E_69vQmwz6My5Ke_1idCxTZxGF_Off4z/view?usp=sharing",
   },
   {
@@ -66,7 +66,7 @@ const CERTIFICATES = [
     year: "2025",
     description:
       "Learned the basics of building websites using HTML, CSS, and JavaScript and passed the final exam with an A grade.",
-    image: "SkillPedia1.png",
+    image: "/SkillPedia1.png",
     link: "https://drive.google.com/file/d/1LvOLr_3ucnWQE4CYbesO-SVvZokxvtAZ/view?usp=sharing",
   },
 ];
@@ -227,7 +227,7 @@ const EXPERIENCES = [
     period: "2024",
     description:
       "Participated in the AI Catalyst event by GDG Bogor. Learned about coding and AI from Google experts and practiced using Google AI Studio. The event gave me new insights into the real world of the IT industry.",
-    image: "AIBuld.jpg",
+    image: "/AIBuld.jpg",
   },
   {
     role: "Programming Course Instructor",
@@ -235,7 +235,7 @@ const EXPERIENCES = [
     period: "2026",
     description:
       "Introduced beginners to programming using VS Code and basic web technologies such as HTML, CSS, and JavaScript. Guided participants in writing simple code and completing a small mini project.",
-    image: "courseRisha.jpeg",
+    image: "/courseRisha.jpeg",
   },
 ];
 
@@ -246,7 +246,7 @@ const EDUCATIONS = [
     period: "2025 - Present",
     description:
       "Focused on practical programming and building real projects. Active in campus organizations, especially in the Technology Innovation division. Interested in participating in IT events and continuously improving my skills through hands-on projects.",
-    image: "logoidn.png",
+    image: "/logoidn.png",
   },
   {
     degree: "High School Diploma (Islamic Studies)",
@@ -254,7 +254,7 @@ const EDUCATIONS = [
     period: "2022 - 2025",
     description:
       "Graduated as the best student in my school. Received the highest score in the boarding school final exam and was often chosen as an exemplary student. Completed several Qur'an memorization certifications and was active in school organizations and committees. During high school, I also started learning basic programming.",
-    image: "logoAssyifa.png",
+    image: "/logoAssyifa.png",
   },
 ];
 
@@ -263,7 +263,7 @@ const PROJECTS = [
     title: "Prayer Times Website",
     description:
       "A web dashboard that shows real-time clock, daily prayer schedules, countdown to the next prayer time, and countdown to Ramadan.",
-    image: "webprayer.png",
+    image: "/webprayer.png",
     tags: ["HTML", "CSS", "JavaScript"],
     link: "https://web-prayer-times.vercel.app/",
   },
@@ -271,7 +271,7 @@ const PROJECTS = [
     title: "RiChat App with Flutter",
     description:
       "A mobile chat application built with Flutter featuring chat, status, and call screens to simulate a modern messaging interface.",
-    image: "2.png",
+    image: "/2.png",
     tags: ["Flutter", "Dart"],
     link: "https://github.com/rishadzkia/project-mobile-app-simple-chat-risha-250458302062.git",
   },
@@ -279,7 +279,7 @@ const PROJECTS = [
     title: "Website Mutabaah Tahfidz",
     description:
       "A web-based Mutabaah Tahfidz system developed for internal school use to monitor students' Qur'an memorization progress and help teachers record daily memorization activities.",
-    image: "stek.png",
+    image: "/stek.png",
     tags: ["Laravel", "PHP", "MySQL"],
     link: "https://github.com/rishadzkia/project-mutabaah-tahfidz-internal-risha-250458302062.git",
   },
