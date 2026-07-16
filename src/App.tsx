@@ -227,7 +227,7 @@ const EXPERIENCES = [
     period: "2025 - Present",
     description:
       "Organized monthly programming review sessions for 27 students using Quizizz, Wordwall, and Google Forms to strengthen their understanding of programming while encouraging them to develop their technical skills through technology events and competitions.",
-    image: "public/inotek1.jpeg",
+    image: "/inotek1.jpeg",
   },
   {
     role: "Programming Instructor",
@@ -263,7 +263,7 @@ const PROJECTS = [
     title: "MyBudget - Financial Management App with a Fund Allocation System",
     description:
       "MyBudget is a mobile application developed using Flutter and Laravel as a final campus project. Built as a team project, the application helps users manage and monitor their personal finances by recording income and expenses based on different categories.",
-    image: "public/mockup.png",
+    image: "/mockup.png",
     tags: ["Flutter", "Laravel"],
     link: "https://github.com/rishadzkia/project-myBudget-flutter-fixed",
   },
@@ -271,7 +271,7 @@ const PROJECTS = [
     title: "AI Face Recognition Attendance System",
     description:
       "This project is a Python-based attendance system developed as a campus assignment. It uses AI face recognition to automate student attendance and notify parents when their children arrive at school.",
-    image: "public/ai-face.png",
+    image: "/ai-face.png",
     tags: ["Python"],
     link: "https://github.com/rishadzkia/project-ai-face-recognition-attendance-system",
   
@@ -280,7 +280,7 @@ const PROJECTS = [
     title: "Website Mutabaah Tahfidz",
     description:
       "A web-based Mutabaah Tahfidz system developed for internal school use to monitor students' Qur'an memorization progress and help teachers record daily memorization activities.",
-    image: "public/mockupmutabaah.PNG",
+    image: "/mockupmutabaah.PNG",
     tags: ["Laravel", "PHP", "MySQL"],
     link: "https://github.com/rishadzkia/project-mutabaah-tahfidz-internal-risha-250458302062.git",
   },
@@ -288,7 +288,7 @@ const PROJECTS = [
     title: "Underwater Drone Monitoring Dashboard",
     description:
       "This project is an IoT-based underwater drone developed as a campus team assignment. It monitors water quality by measuring pH, turbidity, and temperature. My main contribution was developing a real-time monitoring dashboard using Firebase to display sensor data collected by the drone.",
-    image: "public/mockup1.PNG",
+    image: "/mockup1.PNG",
     tags: ["IoT", "Firebase"],
     link: "https://github.com/rishadzkia/project-dashboard-drone-risha",
   },
@@ -296,7 +296,7 @@ const PROJECTS = [
     title: "Digital Prayer Time Information System",
     description:
       "Built using HTML, CSS, and JavaScript, this website is designed to help people easily access daily prayer times. It features a countdown to the next prayer time, a countdown to Ramadan, and displays real-time mosque announcements at the bottom of the page.",
-    image: "public/webprayer.PNG",
+    image: "/webprayer.PNG",
     tags: ["HTML", "CSS", "JavaScript"],
     link: "https://github.com/rishadzkia/project-jadwal-sholat-risha",
   },
