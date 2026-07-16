@@ -263,11 +263,11 @@ const PROJECTS = [
     title: "MyBudget - Financial Management App with a Fund Allocation System",
     description:
       "MyBudget is a mobile application developed using Flutter and Laravel as a final campus project. Built as a team project, the application helps users manage and monitor their personal finances by recording income and expenses based on different categories.",
-    image: "/mockup.png",
+    image: "/mockup.PNG",
     tags: ["Flutter", "Laravel"],
     link: "https://github.com/rishadzkia/project-myBudget-flutter-fixed",
   },
-  {
+  { 
     title: "AI Face Recognition Attendance System",
     description:
       "This project is a Python-based attendance system developed as a campus assignment. It uses AI face recognition to automate student attendance and notify parents when their children arrive at school.",
