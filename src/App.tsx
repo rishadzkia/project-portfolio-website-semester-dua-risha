@@ -48,7 +48,7 @@ const CERTIFICATES = [
     year: "2025",
     description:
       "Completed the final challenge of the program and improved my skills in using VS Code for programming.",
-    image: "/sertif.jpg",
+    image: "sertif.jpg",
     link: "https://drive.google.com/file/d/1s-GQyh294LDdnTA_hq1MHTvNVmu_jJaI/view?usp=sharing",
   },
   {
@@ -57,7 +57,7 @@ const CERTIFICATES = [
     year: "2025",
     description:
       "Completed several projects and quizzes in each session while learning programming fundamentals and basic algorithms.",
-    image: "/sertifminics.jpg",
+    image: "sertifminics.jpg",
     link: "https://drive.google.com/file/d/1E_69vQmwz6My5Ke_1idCxTZxGF_Off4z/view?usp=sharing",
   },
   {
@@ -66,7 +66,7 @@ const CERTIFICATES = [
     year: "2025",
     description:
       "Learned the basics of building websites using HTML, CSS, and JavaScript and passed the final exam with an A grade.",
-    image: "/SkillPedia1.png",
+    image: "SkillPedia1.png",
     link: "https://drive.google.com/file/d/1LvOLr_3ucnWQE4CYbesO-SVvZokxvtAZ/view?usp=sharing",
   },
 ];
@@ -88,7 +88,7 @@ const Certificates = () => {
         </div>
 
         <a
-          href="https://drive.google.com/file/d/1s-GQyh294LDdnTA_hq1MHTvNVmu_jJaI/view?usp=drive_link"
+          href="https://drive.google.com/drive/folders/1xl8J9T3SgN6owUuxjmwUsvoazdxQhihs?usp=drive_link"
           target="_blank"
           rel="noreferrer"
           className="hidden md:flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
@@ -222,20 +222,20 @@ const OTHER_SKILLS = [
 
 const EXPERIENCES = [
   {
-    role: "Participant",
-    company: "Google Developer Group",
-    period: "2024",
+    role: "Technology Innovation Staff",
+    company: "Student Executive Board (BEM) - Politeknik IDN Bogor",
+    period: "2025 - Present",
     description:
-      "Participated in the AI Catalyst event by GDG Bogor. Learned about coding and AI from Google experts and practiced using Google AI Studio. The event gave me new insights into the real world of the IT industry.",
-    image: "/AIBuld.jpg",
+      "Organized monthly programming review sessions for 27 students using Quizizz, Wordwall, and Google Forms to strengthen their understanding of programming while encouraging them to develop their technical skills through technology events and competitions.",
+    image: "public/inotek1.jpeg",
   },
   {
-    role: "Programming Course Instructor",
-    company: "Vs Code Course",
-    period: "2026",
+    role: "Programming Instructor",
+    company: "Private Coding Course",
+    period: "2025",
     description:
-      "Introduced beginners to programming using VS Code and basic web technologies such as HTML, CSS, and JavaScript. Guided participants in writing simple code and completing a small mini project.",
-    image: "/courseRisha.jpeg",
+      "Introduced basic programming concepts to 10 students through online Zoom classes, guiding them through hands-on coding exercises while helping them understand how websites, mobile applications, and games are built.",
+    image: "courseRisha.jpeg",
   },
 ];
 
@@ -246,7 +246,7 @@ const EDUCATIONS = [
     period: "2025 - Present",
     description:
       "Focused on practical programming and building real projects. Active in campus organizations, especially in the Technology Innovation division. Interested in participating in IT events and continuously improving my skills through hands-on projects.",
-    image: "/logoidn.png",
+    image: "logoidn.png",
   },
   {
     degree: "High School Diploma (Islamic Studies)",
@@ -254,34 +254,51 @@ const EDUCATIONS = [
     period: "2022 - 2025",
     description:
       "Graduated as the best student in my school. Received the highest score in the boarding school final exam and was often chosen as an exemplary student. Completed several Qur'an memorization certifications and was active in school organizations and committees. During high school, I also started learning basic programming.",
-    image: "/logoAssyifa.png",
+    image: "logoAssyifa.png",
   },
 ];
 
 const PROJECTS = [
   {
-    title: "Prayer Times Website",
+    title: "MyBudget - Financial Management App with a Fund Allocation System",
     description:
-      "A web dashboard that shows real-time clock, daily prayer schedules, countdown to the next prayer time, and countdown to Ramadan.",
-    image: "/webprayer.PNG",
-    tags: ["HTML", "CSS", "JavaScript"],
-    link: "https://web-prayer-times.vercel.app/",
+      "MyBudget is a mobile application developed using Flutter and Laravel as a final campus project. Built as a team project, the application helps users manage and monitor their personal finances by recording income and expenses based on different categories.",
+    image: "public/mockup.png",
+    tags: ["Flutter", "Laravel"],
+    link: "https://github.com/rishadzkia/project-myBudget-flutter-fixed",
   },
   {
-    title: "RiChat App with Flutter",
+    title: "AI Face Recognition Attendance System",
     description:
-      "A mobile chat application built with Flutter featuring chat, status, and call screens to simulate a modern messaging interface.",
-    image: "/2.png",
-    tags: ["Flutter", "Dart"],
-    link: "https://github.com/rishadzkia/project-mobile-app-simple-chat-risha-250458302062.git",
+      "This project is a Python-based attendance system developed as a campus assignment. It uses AI face recognition to automate student attendance and notify parents when their children arrive at school.",
+    image: "public/ai-face.png",
+    tags: ["Python"],
+    link: "https://github.com/rishadzkia/project-ai-face-recognition-attendance-system",
+  
   },
   {
     title: "Website Mutabaah Tahfidz",
     description:
       "A web-based Mutabaah Tahfidz system developed for internal school use to monitor students' Qur'an memorization progress and help teachers record daily memorization activities.",
-    image: "/stek.PNG",
+    image: "public/mockupmutabaah.PNG",
     tags: ["Laravel", "PHP", "MySQL"],
     link: "https://github.com/rishadzkia/project-mutabaah-tahfidz-internal-risha-250458302062.git",
+  },
+  {
+    title: "Underwater Drone Monitoring Dashboard",
+    description:
+      "This project is an IoT-based underwater drone developed as a campus team assignment. It monitors water quality by measuring pH, turbidity, and temperature. My main contribution was developing a real-time monitoring dashboard using Firebase to display sensor data collected by the drone.",
+    image: "public/mockup1.PNG",
+    tags: ["IoT", "Firebase"],
+    link: "https://github.com/rishadzkia/project-dashboard-drone-risha",
+  },
+  {
+    title: "Digital Prayer Time Information System",
+    description:
+      "Built using HTML, CSS, and JavaScript, this website is designed to help people easily access daily prayer times. It features a countdown to the next prayer time, a countdown to Ramadan, and displays real-time mosque announcements at the bottom of the page.",
+    image: "public/webprayer.PNG",
+    tags: ["HTML", "CSS", "JavaScript"],
+    link: "https://github.com/rishadzkia/project-jadwal-sholat-risha",
   },
 ];
 
@@ -374,7 +391,7 @@ const Hero = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
             </span>
-            Available for new opportunities
+            Open to Internship Opportunities
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white leading-tight">
@@ -387,13 +404,11 @@ const Hero = () => {
           </h1>
 
           <h2 className="text-xl md:text-2xl text-zinc-400 font-light">
-            Programming Student
+            Software Engineering Student at Politeknik IDN Bogor
           </h2>
 
           <p className="text-zinc-400 max-w-lg leading-relaxed">
-            I am a programming student who loves building digital applications.
-            I enjoy learning new skills and solving problems with simple and
-            useful solutions.
+           
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-4">
@@ -435,7 +450,7 @@ const Hero = () => {
           >
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-emerald-500/20 to-cyan-500/20 blur-3xl"></div>
             <img
-              src="/risha_foto.jpeg"
+              src="risha_foto.jpeg"
               alt="Risha Adzkia Putri"
               className="relative z-10 w-full h-full object-cover rounded-full border-2 border-white/10 shadow-2xl"
               referrerPolicy="no-referrer"
@@ -493,55 +508,30 @@ const About = () => {
           <div className="absolute -inset-4 bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 rounded-3xl blur-xl"></div>
           <div className="relative bg-zinc-900 border border-white/10 rounded-3xl p-8 overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-500 to-cyan-500"></div>
-            <h3 className="text-2xl font-bold mb-6">My Journey</h3>
+            <h3 className="text-2xl font-bold mb-6">About Me</h3>
             <div className="space-y-4 text-zinc-400 leading-relaxed">
-              <p>
-                My journey in programming started when I became curious about
-                how websites and applications work. From that moment, I began
-                learning step by step and practicing by building small projects.
-              </p>
-              <p>
-                As a programming student, I enjoy creating useful digital
-                applications, especially web and mobile projects. Some of my
-                projects focus on solving real problems and helping people
-                through simple technology.
-              </p>
-              <p>
-                I believe programming is not only about writing code, but also
-                about creating solutions. My goal is to keep improving my
-                skills, build meaningful projects, and share my knowledge with
-                others who want to learn programming.
-              </p>
+             <p>
+               I am a Software Engineering student at Politeknik IDN Bogor with experience developing web, 
+           mobile, AI, and IoT-based applications through academic and organizational projects. 
+           I enjoy learning emerging technologies and building practical software solutions while 
+           continuously improving my technical and problem-solving skills.
+             </p>
             </div>
           </div>
         </div>
 
         <div className="order-1 md:order-2">
           <h2 className="text-sm font-mono text-emerald-400 tracking-wider uppercase mb-2">
-            About Me
+            
           </h2>
           <h3 className="text-3xl md:text-5xl font-bold text-white mb-6">
             Turning ideas into simple digital solutions.
           </h3>
           <p className="text-zinc-400 text-lg mb-8">
-            I am a programming student who enjoys building web and mobile
-            applications. I like turning ideas into simple and useful digital
-            solutions. Through my projects, I continue learning new technologies
-            and improving my skills step by step.
+          
           </p>
 
-          <div className="grid grid-cols-2 gap-6">
-            <div>
-              <div className="text-4xl font-bold text-white mb-2">10+</div>
-              <div className="text-sm text-zinc-500">Projects Completed</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-white mb-2">100%</div>
-              <div className="text-sm text-zinc-500">
-                Commitment to Learning
-              </div>
-            </div>
-          </div>
+          
         </div>
       </motion.div>
     </section>
@@ -623,7 +613,7 @@ const Experience = () => {
         </div>
 
         <a
-          href="https://drive.google.com/drive/"
+          href="#"
           target="_blank"
           rel="noreferrer"
           className="hidden md:flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
@@ -777,12 +767,12 @@ const Projects = () => {
           </h3>
         </div>
         <a
-          href="https://github.com/rishadzkia"
+          href="#"
           target="_blank"
           rel="noreferrer"
           className="hidden md:flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
         >
-          View all on GitHub <ExternalLink size={16} />
+          View all<ExternalLink size={16} />
         </a>
       </div>
 
@@ -935,7 +925,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/risha-adzkia-putri/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-4 text-zinc-300 hover:text-blue-400 transition-colors group"
@@ -945,7 +935,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-sm text-zinc-500 mb-1">LinkedIn</div>
-                  <div className="font-medium">linkedin.com/in/rishaadzkia</div>
+                  <div className="font-medium">linkedin.com/in/risha-adzkia-putri</div>
                 </div>
               </a>
             </div>
